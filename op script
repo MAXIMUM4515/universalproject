@@ -7,7 +7,7 @@ table.insert(tab,y)
 end
 x=table.concat(tab)
 return x
-end 
+end
 
 
 local HS = game:GetService("HttpService")
